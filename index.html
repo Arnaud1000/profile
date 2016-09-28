@@ -12,8 +12,29 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-     <div class="container">
-      <div class="card">
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <!-- your page content here -->
+    <div class="container">
+      <div class="card" id="summary">
         <img class="img-circle" src="images/image1.jpg" alt="">
         <h1 class="text-center">Arnaud COUESNON</h1>
 
@@ -24,13 +45,13 @@ Croit-il que je puisse l'affirmer, car je te connais aussi bien qu'eux, du momen
       </div>
       <div class="card card-white">
         <ul>
-    <li>
+    <li class="inline">
       <a href="#">
         <i class="fa fa-facebook" aria-hidden="true"></i>
         Facebook
       </a>
     </li>
-    <li>
+    <li class="inline">
       <a href="#">
         <i class="fa fa-linkedin" aria-hidden="true"></i>
         Linkedin
@@ -38,7 +59,7 @@ Croit-il que je puisse l'affirmer, car je te connais aussi bien qu'eux, du momen
     </li>
   </ul>
       </div>
-      <div class="card">
+      <div class="card" id="favorite-movies">
         <table>
     <thead>
     </thead>
@@ -59,20 +80,17 @@ Descendu de la selle de l'officier, il s'échauffa, l'idée de leur faire le plu
 
   </table>
       </div>
-      <div class="card card-white">
+      <div class="card card-white" id="footer">
         <ul>
-  <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-  <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i></a></li>
-  <li><a href="#"><i class="fa fa-bullhorn" aria-hidden="true"></i></a></li>
+  <li class="inline"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+  <li class="inline"><a href="#"><i class="fa fa-share" aria-hidden="true"></i></a></li>
+  <li class="inline"><a href="#"><i class="fa fa-bullhorn" aria-hidden="true"></i></a></li>
 </ul>
       </div>
     </div>
 
 
 
-
-
-
-
+    </div>
   </body>
 </html>

@@ -1,3 +1,15 @@
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  font-color: #FFEF03;
+  font-size:40px;
+}
+#page-content {
+  margin-left: 300px;
+}
 body {
   background-color: #97A1AD;
   font-size:16px;
@@ -29,10 +41,13 @@ ul {
   list-style-type: none;
    text-align: center;
 }
-li  {
- text-align: center;
+li {
+  text-align: center;
+  margin: 20;
+}
+
+.inline  {
  display: inline-block;
- margin: 20;
 }
 
 .img-circle {
@@ -54,3 +69,4 @@ margin: 0 auto;
   padding: 30px;
   border: 1px solid lightgrey;
 }
+
